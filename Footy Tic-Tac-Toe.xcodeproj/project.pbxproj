@@ -11,6 +11,10 @@
 		7CF5A2A12A41ED8500331A47 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF5A2A02A41ED8500331A47 /* ContentView.swift */; };
 		7CF5A2A32A41ED8500331A47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CF5A2A22A41ED8500331A47 /* Assets.xcassets */; };
 		7CF5A2A62A41ED8500331A47 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CF5A2A52A41ED8500331A47 /* Preview Assets.xcassets */; };
+		7CF5A2AD2A41EDF700331A47 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF5A2AC2A41EDF700331A47 /* MenuView.swift */; };
+		7CF5A2AF2A41EE2700331A47 /* MatchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF5A2AE2A41EE2700331A47 /* MatchManager.swift */; };
+		7CF5A2B12A41EE3600331A47 /* Misc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF5A2B02A41EE3600331A47 /* Misc.swift */; };
+		7CF5A2B32A41F6AE00331A47 /* GameOverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF5A2B22A41F6AE00331A47 /* GameOverView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		7CF5A2A02A41ED8500331A47 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7CF5A2A22A41ED8500331A47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7CF5A2A52A41ED8500331A47 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7CF5A2AC2A41EDF700331A47 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		7CF5A2AE2A41EE2700331A47 /* MatchManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchManager.swift; sourceTree = "<group>"; usesTabs = 0; };
+		7CF5A2B02A41EE3600331A47 /* Misc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Misc.swift; sourceTree = "<group>"; };
+		7CF5A2B22A41F6AE00331A47 /* GameOverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +63,10 @@
 				7CF5A2A02A41ED8500331A47 /* ContentView.swift */,
 				7CF5A2A22A41ED8500331A47 /* Assets.xcassets */,
 				7CF5A2A42A41ED8500331A47 /* Preview Content */,
+				7CF5A2AC2A41EDF700331A47 /* MenuView.swift */,
+				7CF5A2AE2A41EE2700331A47 /* MatchManager.swift */,
+				7CF5A2B02A41EE3600331A47 /* Misc.swift */,
+				7CF5A2B22A41F6AE00331A47 /* GameOverView.swift */,
 			);
 			path = "Footy Tic-Tac-Toe";
 			sourceTree = "<group>";
@@ -138,6 +150,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7CF5A2A12A41ED8500331A47 /* ContentView.swift in Sources */,
+				7CF5A2AF2A41EE2700331A47 /* MatchManager.swift in Sources */,
+				7CF5A2AD2A41EDF700331A47 /* MenuView.swift in Sources */,
+				7CF5A2B12A41EE3600331A47 /* Misc.swift in Sources */,
+				7CF5A2B32A41F6AE00331A47 /* GameOverView.swift in Sources */,
 				7CF5A29F2A41ED8500331A47 /* Footy_Tic_Tac_ToeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
