@@ -14,14 +14,16 @@ struct MenuView: View {
         VStack{
             Spacer()
             
-            Image("logo").resizable().scaledToFit().padding(30)
+            Image("logo")
+                .resizable()
+                .scaledToFit()
             
             Spacer()
             
             Button{
                 //TODO: Start Matchmaking Menu
             } label: {
-                Text("PLAY")
+                Text("Play")
                     .foregroundColor(.white)
                     .font(.largeTitle)
                     .bold()

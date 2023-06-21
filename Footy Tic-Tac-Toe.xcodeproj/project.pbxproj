@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7CA57EF22A42989E00E98E3E /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA57EF12A42989E00E98E3E /* GameView.swift */; };
 		7CF5A29F2A41ED8500331A47 /* Footy_Tic_Tac_ToeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF5A29E2A41ED8500331A47 /* Footy_Tic_Tac_ToeApp.swift */; };
 		7CF5A2A12A41ED8500331A47 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF5A2A02A41ED8500331A47 /* ContentView.swift */; };
 		7CF5A2A32A41ED8500331A47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CF5A2A22A41ED8500331A47 /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7CA57EF12A42989E00E98E3E /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 		7CF5A29B2A41ED8500331A47 /* Footy Tic-Tac-Toe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Footy Tic-Tac-Toe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CF5A29E2A41ED8500331A47 /* Footy_Tic_Tac_ToeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Footy_Tic_Tac_ToeApp.swift; sourceTree = "<group>"; };
 		7CF5A2A02A41ED8500331A47 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 				7CF5A2AE2A41EE2700331A47 /* MatchManager.swift */,
 				7CF5A2B02A41EE3600331A47 /* Misc.swift */,
 				7CF5A2B22A41F6AE00331A47 /* GameOverView.swift */,
+				7CA57EF12A42989E00E98E3E /* GameView.swift */,
 			);
 			path = "Footy Tic-Tac-Toe";
 			sourceTree = "<group>";
@@ -155,6 +158,7 @@
 				7CF5A2B12A41EE3600331A47 /* Misc.swift in Sources */,
 				7CF5A2B32A41F6AE00331A47 /* GameOverView.swift in Sources */,
 				7CF5A29F2A41ED8500331A47 /* Footy_Tic_Tac_ToeApp.swift in Sources */,
+				7CA57EF22A42989E00E98E3E /* GameView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

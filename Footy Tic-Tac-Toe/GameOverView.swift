@@ -47,9 +47,9 @@ struct GameOverView: View {
             
         }
         .background(
-            Image("gameOverBg")
-                .resizable()
-                .scaledToFill()
+        Image("gameOverBg")
+            .resizable()
+            .scaledToFill()
         )
         .ignoresSafeArea()
     }
