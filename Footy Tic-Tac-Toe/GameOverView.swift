@@ -17,8 +17,7 @@ struct GameOverView: View {
             Image("gameOver")
                 .resizable()
                 .scaledToFit()
-                .padding(.horizontal, 70)
-                .padding(.vertical)
+               
             
             Text("Score: \(matchMananger.score)")
                 .font(.largeTitle)

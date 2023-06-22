@@ -15,10 +15,7 @@ struct MenuView: View {
             Spacer()
             
             Image("logo")
-                .resizable()
-                .scaledToFit()
             
-            Spacer()
             
             Button{
                 //TODO: Start Matchmaking Menu

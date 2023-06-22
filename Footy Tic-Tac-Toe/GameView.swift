@@ -15,11 +15,16 @@ struct GameView: View {
         // TODO: submit the guess
     }
     
+    func getImageForPlayer(playerName: String) -> String{
+        // TODO: pull in the image of the player
+        return ""
+    }
+    
     
     var body: some View {
         ZStack{
             GeometryReader{ _ in
-                Image(matchManager.currentlyGuessing ? "guessBg" : "guesserBg")
+                Image("guesserBg")
                     .resizable()
                     .scaledToFill()
                     .ignoresSafeArea()
@@ -27,6 +32,73 @@ struct GameView: View {
                 
                 VStack{
                     topBar
+                    
+                    Spacer()
+                    
+                    VStack{
+                        HStack{
+                            Button{
+                                // TODO: user selects square
+                            }label: {
+                                Image(makingGuess == "" ? "blankProfile" : getImageForPlayer(playerName: makingGuess))
+                            }
+                            
+                            Button{
+                                // TODO: user selects square
+                            }label: {
+                                Image(makingGuess == "" ? "blankProfile" : getImageForPlayer(playerName: makingGuess))
+                            }
+                            
+                            Button{
+                                // TODO: user selects square
+                            }label: {
+                                Image(makingGuess == "" ? "blankProfile" : getImageForPlayer(playerName: makingGuess))
+                            }
+                            
+                        }
+                        
+                        HStack{
+                            Button{
+                                // TODO: user selects square
+                            }label: {
+                                Image(makingGuess == "" ? "blankProfile" : getImageForPlayer(playerName: makingGuess))
+                            }
+                            
+                            Button{
+                                // TODO: user selects square
+                            }label: {
+                                Image(makingGuess == "" ? "blankProfile" : getImageForPlayer(playerName: makingGuess))
+                            }
+                            
+                            Button{
+                                // TODO: user selects square
+                            }label: {
+                                Image(makingGuess == "" ? "blankProfile" : getImageForPlayer(playerName: makingGuess))
+                            }
+                            
+                        }
+                        
+                        HStack{
+                            Button{
+                                // TODO: user selects square
+                            }label: {
+                                Image(makingGuess == "" ? "blankProfile" : getImageForPlayer(playerName: makingGuess))
+                            }
+                            
+                            Button{
+                                // TODO: user selects square
+                            }label: {
+                                Image(makingGuess == "" ? "blankProfile" : getImageForPlayer(playerName: makingGuess))
+                            }
+                            
+                            Button{
+                                // TODO: user selects square
+                            }label: {
+                                Image(makingGuess == "" ? "blankProfile" : getImageForPlayer(playerName: makingGuess))
+                            }
+                            
+                        }
+                    }
                 }
                 
             }
@@ -41,7 +113,7 @@ struct GameView: View {
                 } label:{
                     Image(systemName: "arrowshape.turn.up.left.circle.fill")
                         .font(.largeTitle)
-                        .tint(Color(matchManager.currentlyGuessing ? .red : .blue))
+                        .tint(Color(matchManager.currentlyGuessing ? .blue : .red))
                 }
                 
                 Spacer()
@@ -49,7 +121,7 @@ struct GameView: View {
                 Label("\(matchManager.remainingTime)", systemImage: "clock.fill")
                     .bold()
                     .font(.title2)
-                    .foregroundColor(Color(matchManager.currentlyGuessing ? .red : .blue))
+                    .foregroundColor(Color(matchManager.currentlyGuessing ? .blue : .red))
             }
         }
         .padding(.vertical, 15)
